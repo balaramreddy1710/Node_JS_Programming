@@ -7,3 +7,10 @@ const user = { name: "Alice", age: 25 };
 const updatedUser = { ...user, age: 26, city: "Delhi" };
 
 console.log(updatedUser);
+
+function greet(a, b, c) {
+  console.log(a, b, c);
+}
+
+const args = ["Hello", "World", "!"];
+greet(...args);
