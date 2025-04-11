@@ -3,4 +3,3 @@ const greet = function hi(name) {
 };
 
 greet("Ram");
-// hi("sita");
